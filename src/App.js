@@ -58,7 +58,7 @@ function App() {
 
   const handleSubmit = async () => {
     if (!validator.isEmail(email)) {
-      return alert("Please enter valida Email");
+      return alert("Please enter valid Email");
     }
 
     const url = `https://firestore.googleapis.com/v1/projects/vaccine-notifier-a69d9/databases/(default)/documents/users`;
