@@ -14,8 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,8 +23,43 @@
   color: white;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  padding: 15px 16px;
+  background: linear-gradient(
+    90deg
+    , rgb(129 174 169) 0%, rgba(133,193,173,1) 3%, rgb(161 202 211) 100%) !important;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.background {
+  background: linear-gradient(
+    90deg
+    , rgb(45 63 65) 0%, rgba(29,16,1,1) 18%, rgb(19 129 151) 100%);
+}
+
+.head-style {
+  font-weight: 500;
+  padding: 34px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  width: 100%;
+}
+
+.error {
+  color: rgb(225 18 18);
+  font-size: medium;
+  padding-top: 9px;
+  font-weight: 500;
+}
+
+.btn {
+  font-weight: 500 !important;
 }
 
 @keyframes App-logo-spin {
