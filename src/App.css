@@ -70,3 +70,8 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  color: #ffffff;
+  font-size: 12px;
+}

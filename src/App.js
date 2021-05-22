@@ -140,6 +140,18 @@ function App() {
           </label>
         )}
       </header>
+      <footer className="footer">
+        Disclaimer: This site uses public APIs provided by cowin. We are not
+        responsible for, any damages or any kind of legal issues arising out of
+        use, reference to, or reliance on any information contained within this
+        website. <br />
+        <i> Developed and maintained by : </i>
+        {"  "}
+        <a href="https://www.linkedin.com/in/isnehalr">
+          {" "}
+          <strong> Snehal </strong>{" "}
+        </a>
+      </footer>
     </div>
   );
 }
